@@ -1,0 +1,15 @@
+{
+  "dataset_name": "DRION-DB",
+  "model_name": "UNET",
+  "desired_size": 512,
+  "num_channel": 1,
+  "num_class": 1,
+  "dropout": 0.5,
+  "output_activation": "sigmoid",
+  "learning_rate": 1e-3,
+  "loss": "binary_crossentropy",
+  "epochs": 40,
+  "batch_size": 4,
+  "total_train": 90,
+  "total_val": 19
+}
